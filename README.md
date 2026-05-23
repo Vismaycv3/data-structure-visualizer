@@ -1,5 +1,8 @@
-# data-structure-visualizer
-A modern interactive Data Structure Visualizer featuring Arrays, Stack, Queue, Linked List, Trees and Graph traversal animations.
+# Data Structure Visualizer
+
+An interactive Data Structure Visualizer built using HTML, CSS and JavaScript to help students understand data structures through animations and visual learning.
+
+---
 
 ## Features
 
@@ -10,7 +13,10 @@ A modern interactive Data Structure Visualizer featuring Arrays, Stack, Queue, L
 - Binary Search Tree Visualization
 - Graph Traversals (BFS & DFS)
 - Interactive Animations
-- Modern UI Design
+- Time Complexity Information
+- Modern Dark UI Design
+
+---
 
 ## Technologies Used
 
@@ -18,4 +24,46 @@ A modern interactive Data Structure Visualizer featuring Arrays, Stack, Queue, L
 - CSS
 - JavaScript
 
-- 
+---
+
+## Screenshots
+
+### Homepage
+
+![Homepage](screenshots/home.png)
+
+---
+
+### Array Visualizer
+
+![Array](screenshots/array.png)
+
+---
+
+### Stack Visualizer
+
+![Stack](screenshots/stack.png)
+
+---
+
+### Tree Visualizer
+
+![Tree](screenshots/tree.png)
+
+---
+
+### Graph Visualizer
+
+![Graph](screenshots/graph.png)
+
+---
+
+## About
+
+This project was created to make learning Data Structures more visual, interactive and beginner friendly through animations and simulations.
+
+---
+
+## Author
+
+Developed by Vismay CV
