@@ -58,6 +58,10 @@ An interactive Data Structure Visualizer built using HTML, CSS and JavaScript to
 
 ---
 
+🌐 Live Demo:
+
+[https://vismaycv3.github.io/data-structure-visualizer/]
+
 ## About
 
 This project was created to make learning Data Structures more visual, interactive and beginner friendly through animations and simulations.
