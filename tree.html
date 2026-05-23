@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Tree Visualizer</title>
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="tree.css">
+
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+
+    <a href="index.html" class="back-btn">← Back</a>
+
+    <!-- TITLE -->
+
+    <h1>Binary Search Tree Visualizer</h1>
+
+    <p class="subtitle">
+        Binary Search Tree stores smaller values on left and larger values on right.
+    </p>
+
+    <!-- TREE -->
+
+    <div class="tree-container">
+
+        <svg id="tree-lines"></svg>
+
+        <div id="tree"></div>
+
+    </div>
+
+    <!-- OPERATIONS -->
+
+    <div class="operations">
+
+        <input type="number"
+               id="tree-value"
+               placeholder="Enter value">
+
+        <input type="number"
+               id="search-value"
+               placeholder="Search value">
+
+        <button id="insert-btn">Insert</button>
+
+        <button id="delete-btn">Delete</button>
+
+        <button id="search-btn">Search</button>
+
+        <button id="inorder-btn">Inorder</button>
+
+        <button id="preorder-btn">Preorder</button>
+
+        <button id="postorder-btn">Postorder</button>
+
+        <button id="info-btn"
+                class="info-btn">
+
+            ⓘ
+
+        </button>
+
+    </div>
+
+    <!-- MESSAGE -->
+
+    <p id="message"></p>
+
+    <!-- INFO PANEL -->
+
+    <div class="complexity-panel hidden"
+         id="complexity-panel">
+
+        <h2>Tree Information</h2>
+
+        <div class="complexity-card">
+            <span>Insertion</span>
+            <span>O(log n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Search</span>
+            <span>O(log n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Traversal</span>
+            <span>O(n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Delete Leaf</span>
+            <span>O(log n)</span>
+        </div>
+
+    </div>
+
+    <script src="tree.js"></script>
+
+</body>
+
+</html>

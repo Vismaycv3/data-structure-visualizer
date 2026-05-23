@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Linked List Visualizer</title>
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="linkedlist.css">
+
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+
+    <a href="index.html" class="back-btn">← Back</a>
+
+    <!-- TITLE -->
+
+    <h1>Linked List Visualizer</h1>
+
+    <p class="subtitle">
+        Linked Lists store nodes dynamically in memory and connect them using pointers instead of contiguous locations.
+    </p>
+
+    <!-- LINKED LIST -->
+
+    <div class="linked-list-wrapper">
+
+        <!-- HEAD -->
+
+        <div class="head-container">
+
+            <div class="head-label">
+                HEAD →
+            </div>
+
+        </div>
+
+        <!-- LINKED LIST -->
+
+        <div class="linked-list-container"
+             id="linked-list">
+
+        </div>
+
+    </div>
+
+    <!-- OPERATIONS -->
+
+    <div class="operations">
+
+        <input type="number"
+               id="ll-value"
+               placeholder="Enter value">
+
+        <input type="number"
+               id="search-value"
+               placeholder="Search value">
+
+        <button id="insert-btn">Insert</button>
+
+        <button id="delete-btn">Delete End</button>
+
+        <button id="search-btn">Search</button>
+
+        <button id="traverse-btn">Traverse</button>
+
+        <button id="info-btn"
+                class="info-btn">
+
+            ⓘ
+
+        </button>
+
+    </div>
+
+    <!-- MESSAGE -->
+
+    <p id="message"></p>
+
+    <!-- COMPLEXITY PANEL -->
+
+    <div class="complexity-panel hidden"
+         id="complexity-panel">
+
+        <h2>Linked List Information</h2>
+
+        <div class="complexity-card">
+            <span>Insertion</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Deletion</span>
+            <span>O(n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Search</span>
+            <span>O(n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Traversal</span>
+            <span>O(n)</span>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+
+    <script src="linkedlist.js"></script>
+
+</body>
+
+</html>

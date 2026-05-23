@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Visualizer</title>
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="array.css">
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+
+    <a href="index.html" class="back-btn">← Back</a>
+
+    <!-- TITLE -->
+
+    <h1>Array Visualizer</h1>
+
+    <p class="subtitle">
+        Arrays store elements in contiguous memory locations and allow fast access using indexes.
+    </p>
+
+    <!-- CREATE ARRAY SECTION -->
+
+    <div class="create-array">
+
+        <input type="number" placeholder="Enter array size">
+
+        <button id="create-btn">Create Array</button>
+
+    </div>
+
+    <!-- VISUALIZER -->
+
+    <div class="visualizer">
+        
+
+        <!-- INDEX ROW -->
+
+        <div class="row" id="index-row">
+
+            <div class="label">Index</div>
+
+            <div class="cell">0</div>
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+
+        </div>
+
+        <!-- VALUE ROW -->
+
+        <div class="row" id="value-row">
+
+            <div class="label">Value</div>
+
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+
+        </div>
+
+        <!-- ADDRESS ROW -->
+
+        <div class="row" id="address-row">
+
+            <div class="label">Addr</div>
+
+            <div class="address">100</div>
+            <div class="address">104</div>
+            <div class="address">108</div>
+            <div class="address">112</div>
+
+        </div>
+
+    </div>
+    
+    <!-- OPERATIONS -->
+
+    <div class="operations">
+
+        <input type="number" id="index-input" placeholder="Index">
+        <input type="number" id="value-input" placeholder="Value">
+        <input type="number" id="search-input" placeholder="Search value">
+
+
+        <button id="insert-btn">Insert</button>
+        <button id="delete-btn">Delete</button>
+        <button id="search-btn">Search</button>
+        <button id="traverse-btn">Traverse</button>
+        <button id="info-btn" class="info-btn">ⓘ</button>
+
+    </div>
+
+    <div class="complexity-panel hidden" id="complexity-panel">
+
+        <h2>Array Information</h2>
+
+        <div class="complexity-card">
+            <span>Access</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Search</span>
+            <span>O(n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Traversal</span>
+            <span>O(n)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Insertion</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Deletion</span>
+            <span>O(1)</span>
+        </div>
+
+    </div>
+    <!-- JS -->
+
+
+    <script src="array.js"></script>
+
+</body>
+
+</html>

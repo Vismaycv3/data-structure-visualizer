@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Stack Visualizer</title>
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="stack.css">
+
+</head>
+
+<body>
+
+    <!-- BACK BUTTON -->
+
+    <a href="index.html" class="back-btn">← Back</a>
+
+    <!-- TITLE -->
+
+    <h1>Stack Visualizer</h1>
+
+    <p class="subtitle">
+        Stack follows Last In First Out (LIFO)
+    </p>
+
+    <!-- STACK -->
+
+    <div class="stack-wrapper">
+
+        <div class="top-text">
+
+            TOP
+
+        </div>
+
+        <div class="stack-container"
+             id="stack">
+
+        </div>
+
+    </div>
+
+
+    <!-- OPERATIONS -->
+
+    <div class="operations">
+
+        <input type="number"
+               id="stack-value"
+               placeholder="Enter value">
+
+        <button id="push-btn">Push</button>
+
+        <button id="pop-btn">Pop</button>
+
+        <button id="peek-btn">Peek</button>
+
+        <button id="empty-btn">isEmpty</button>
+
+        <button id="info-btn"
+                class="info-btn">
+
+            ⓘ
+
+        </button>
+
+    </div>
+
+    <!-- MESSAGE -->
+
+    <p id="message"></p>
+
+
+    <!-- COMPLEXITY PANEL -->
+
+    <div class="complexity-panel hidden"
+         id="complexity-panel">
+
+        <h2>Stack Information</h2>
+
+        <div class="complexity-card">
+            <span>Push</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Pop</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>Peek</span>
+            <span>O(1)</span>
+        </div>
+
+        <div class="complexity-card">
+            <span>isEmpty</span>
+            <span>O(1)</span>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+
+    <script src="stack.js"></script>
+
+</body>
+
+</html>
